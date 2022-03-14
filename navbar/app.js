@@ -16,12 +16,7 @@ const windowResize = () => {
     if (window.innerWidth > 800) navLinks.classList.remove("show-links");
 }
 
-navBtn.addEventListener('click', () => {
-    navToggle();
-
-});
+navBtn.addEventListener('click', (navToggle));
 
 window.addEventListener('resize', windowResize);
-
-
 
