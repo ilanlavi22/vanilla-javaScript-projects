@@ -8,6 +8,7 @@ const navBtn = document.querySelector(".nav-toggle");
 const navLinks = document.querySelector(".links");
 
 const navToggle = () => {
+    //navLinks.classList.toggle("show-links");
     if (navLinks.classList.contains("show-links") ? navLinks.classList.remove("show-links") : navLinks.classList.add("show-links"));
 }
 
@@ -16,7 +17,6 @@ const windowResize = () => {
 }
 
 navBtn.addEventListener('click', () => {
-    //navLinks.classList.toggle("show-links");
     navToggle();
 
 });
