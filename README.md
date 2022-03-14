@@ -1,10 +1,6 @@
-## Vanilla JavaScript Projects
-
-# Changelog
+# Vanilla JavaScript Projects
 
 ## About The Projects
-
-### Added or Changed
 
 - Added this changelog :)
 - Color Flipper (Math.random)
